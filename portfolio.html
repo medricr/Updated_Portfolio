@@ -1,0 +1,102 @@
+<!--this is the main index file for the Basic Portfolio Project-->
+<!DOCTYPE html>
+<!--beginning of the html section-->
+<html>
+
+<!--beginning of the head section-->
+<head>
+    <title>Medric A. Riley</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Reset -->
+    <link rel="reset" href="assets/css/reset.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<!--beginning of the body section-->
+<body>  
+        <!--the container holding everything in the main header bar-->
+        <header class="container">
+
+            <!--the inner layer, containing the elements of the header-->
+            <div class="wrapper">
+                
+                <!--the logo displaying my name-->
+                <div class="logo">
+                    <h2>Medric A. Riley</h2>
+                </div>
+
+                <!--navigation bar for accessing the other pages of the website-->
+                <nav class="nav_bar">
+                    
+                    <a href="index.html">About</a>
+
+                    <a href="portfolio.html">Portfolio</a>
+
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+         
+     
+
+    <!--beginning of conent section-->
+    <div id="content">
+        <h3> Portfolio</h3>
+        <hr>
+        <!-- generic placeholders for portfolio content -->
+        <div class="portfolio_container">
+            <div class="container-pic star-wars">
+                    <button id="banner" class="star-wars-button">Star Wars RPG</button>
+            </div>
+        </div>
+        <div class="portfolio_container">
+                <div class="container_pic event-me">
+                        <button id="banner" class="event-me-button">EventMe</button>
+                </div>
+        </div>
+            <div class="portfolio_container">
+                    <div class="container_pic trivia">
+                            <button id="banner">Mythology Trivia</button>
+                    </div>
+                </div>
+                <div class="portfolio_container">
+                        <div class="container_pic">
+                                <button id="banner">Coming Soon!</button>
+                        </div>
+                    </div>
+                    <div class="portfolio_container">
+                            <div class="container_pic">
+                                    <button id="banner">Coming Soon!</button>
+                            </div>
+                        </div>
+                        <div class="portfolio_container">
+                                <div class="container_pic">
+                                        <button id="banner">Coming Soon!</button>
+                                </div>
+                            </div>
+                            <div class="portfolio_container">
+                                    <div class="container_pic">
+                                            <button id="banner">Coming Soon!</button>
+                                    </div>
+                                </div>
+          
+    </div>
+
+    <script>
+            $(".star-wars-button").on("click",function() {
+                    window.location="https://medricr.github.io/unit-4-game/";
+            })
+            $(".event-me-button").on("click",function(){
+                    window.location="https://medricr.github.io/group-project/";
+            })
+            $(".trivia").on("click",function(){
+                    window.location="https://medricr.github.io/trivia-game/";
+            })
+    </script>
+   
+</body>
+</html>
