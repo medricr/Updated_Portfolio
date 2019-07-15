@@ -156,6 +156,10 @@ hr {
      height: 130px;
  }
 
+.drink_list {
+	background: url("../images/drinks.jpg");
+	height: 130px;
+}
  #banner {
      width: 100%;
      margin: 0 auto;
